@@ -1,6 +1,6 @@
 ### Native Image
 *.exe
-*.txt
+*.build_artifacts.txt
 reports/
 
 ### Compiled class Files
