@@ -1,0 +1,9 @@
+[
+  {
+    "name": "cn.wangliang181230.study.graalvm.nativeimage.reflect.HelloReflection",
+    "methods": [
+      { "name": "foo", "parameterTypes": [] },
+      { "name": "bar", "parameterTypes": [] }
+    ]
+  }
+]
