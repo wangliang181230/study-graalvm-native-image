@@ -1,3 +1,8 @@
+### Native Image
+*.exe
+*.txt
+reports/
+
 ### Compiled class Files
 *.class
 target/
