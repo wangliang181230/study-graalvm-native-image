@@ -1,5 +1,3 @@
-package cn.wangliang181230.study.graalvm.nativeimage.helloworld;
-
 public class HelloWorld {
 
     private static final String CONST = "this-is-a constant var";

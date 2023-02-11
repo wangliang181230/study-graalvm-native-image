@@ -1,7 +1,3 @@
-package cn.wangliang181230.study.graalvm.nativeimage.reflect;
-
-import java.lang.reflect.Method;
-
 public class HelloReflection {
 
     public static void foo() {

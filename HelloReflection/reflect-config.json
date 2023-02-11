@@ -1,6 +1,6 @@
 [
   {
-    "name": "cn.wangliang181230.study.graalvm.nativeimage.reflect.HelloReflection",
+    "name": "HelloReflection",
     "methods": [
       { "name": "foo", "parameterTypes": [] },
       { "name": "bar", "parameterTypes": [] }
