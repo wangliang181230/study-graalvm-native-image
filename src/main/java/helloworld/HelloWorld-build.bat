@@ -1,4 +1,4 @@
-title "Native Image Build"
+title "HelloWorld-Build"
 
 javac HelloWorld.java -d ..\..\..\..\target\classes
 
