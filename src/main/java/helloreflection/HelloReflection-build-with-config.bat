@@ -4,8 +4,8 @@ javac HelloAnnotation.java TestAnnotation.java HelloReflection.java -d ..\..\..\
 
 native-image -classpath ..\..\..\..\target\classes ^
     helloreflection.HelloReflection ^
-    -H:Path=..\..\..\..\target\exe\helloreflection ^
     --no-fallback -H:+PrintImageObjectTree -H:+ExhaustiveHeapScan -H:+PrintAnalysisCallTree ^
+    -H:Path=..\..\..\..\target\exe\helloreflection ^
     -H:Name=HelloReflection ^
     -H:ReflectionConfigurationFiles=./reflect-config.json
 
