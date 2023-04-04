@@ -15,6 +15,8 @@ public class HelloReflection {
     }
 
     public static void main(String[] args) throws Exception {
+        long t0 = System.nanoTime();
+
         for (String arg : args) {
             if (arg.contains("agentlib")) {
                 continue;
@@ -30,6 +32,8 @@ public class HelloReflection {
         }
 
         HelloReflection.class.getMethod("wangwu").invoke(null);
+
+        System.out.println("time: " + (System.nanoTime() - t0) + "\r\n\r\n");
 
         Thread.sleep(30000);
     }
