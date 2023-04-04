@@ -1,6 +1,8 @@
 title "HelloReflection-Build-with-config"
 
-javac HelloAnnotation.java TestAnnotation.java HelloReflection.java -d ..\..\..\..\target\classes
+java -version
+
+javac HelloReflection.java -d ..\..\..\..\target\classes
 
 native-image -classpath ..\..\..\..\target\classes ^
     helloreflection.HelloReflection ^

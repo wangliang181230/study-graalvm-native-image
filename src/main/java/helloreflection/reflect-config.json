@@ -1,14 +1,9 @@
 [
   {
     "name": "helloreflection.HelloReflection",
-    "queriedMethods": [
-      { "name": "foo", "parameterTypes": [] }
-    ],
     "methods": [
+      { "name": "foo", "parameterTypes": [] },
       { "name": "bar", "parameterTypes": [] }
     ]
-  },
-  {
-    "name": "helloreflection.TestAnnotation"
   }
 ]

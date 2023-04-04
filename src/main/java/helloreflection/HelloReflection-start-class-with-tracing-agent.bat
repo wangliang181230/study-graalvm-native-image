@@ -5,7 +5,8 @@ java -version
 javac HelloReflection.java -d ..\..\..\..\target\classes
 
 java         -classpath ..\..\..\..\target\classes ^
+    -agentlib:native-image-agent=config-output-dir=.\tracing-agent\ ^
     helloreflection.HelloReflection ^
-    bar
+    foo bar
 
 cmd

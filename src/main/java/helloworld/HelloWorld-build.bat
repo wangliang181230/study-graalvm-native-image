@@ -1,5 +1,7 @@
 title "HelloWorld-Build"
 
+java -version
+
 javac HelloWorld.java -d ..\..\..\..\target\classes
 
 native-image  -classpath ..\..\..\..\target\classes ^
