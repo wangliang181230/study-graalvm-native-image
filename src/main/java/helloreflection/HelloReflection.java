@@ -16,7 +16,7 @@ public class HelloReflection {
 
     public static void main(String[] args) throws Exception {
         for (String arg : args) {
-            if (arg.contains("-")) {
+            if (arg.contains("agentlib")) {
                 continue;
             }
 
